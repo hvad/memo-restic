@@ -385,3 +385,5 @@ Adjust these parameters in your `restic-backup.sh` script (`RETENTION_POLICY` va
 ```bash
 restic forget --keep-daily 7 --keep-weekly 4 --keep-monthly 6 --keep-yearly 1 --prune --dry-run --repo ~/backups --password-file ~/.restic_password
 ```
+
+-----
