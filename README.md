@@ -10,13 +10,13 @@ using **Restic** and automating them with **systemd timers** on Fedora.
 1.  [Prerequisites](#1-Prerequisites)
 2.  [Initialize the Restic Repository](#2-Initialize-the-restic-repository)
 3.  [Create the Backup Script](#3-Create-the-backup-script)
-4.  [Configure Systemd Unit Files]
+4.  [Configure Systemd Unit Files](#-4-Configure-systemd-unit-files)
       * [Restic Backup Service (`.service`)]
       * [Restic Backup Timer (`.timer`)]
-5.  [Enable and Start the Systemd Timer]
-6.  [Verify Backups and Status]
-7.  [Restoring Data]
-8.  [Backup Policy (Retention)]
+5.  [Enable and Start the Systemd Timer](#-5-Enable-and-start-the-systemd-timer)
+6.  [Verify Backups and Status](#-6-Verify-backups-and-status)
+7.  [Restoring Data](#-7-Restoring-data)
+8.  [Backup Policy](#-8-Backup-policy)
 
 -----
 
@@ -368,7 +368,7 @@ For more detailed restoration options, refer to the [Restic documentation](https
 
 -----
 
-## 8 Backup Policy (Retention)
+## 8 Backup Policy
 
 The `restic forget` command, included in your `restic-backup.sh` script, implements your retention policy.
 
