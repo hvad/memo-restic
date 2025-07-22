@@ -1,4 +1,4 @@
-# README: Local Restic Backups on Fedora
+Local Restic Backups on Fedora
 
 This guide provides a comprehensive walkthrough on setting up local backups 
 using **Restic** and automating them with **systemd timers** on Fedora.
